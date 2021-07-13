@@ -13,8 +13,9 @@
 
 # Running the programs
 
-julia juliapublisher.jl
-python3 motorsend.py
+- julia juliapublisher.jl
+
+- python3 motorsend.py
 
 A publisher subscriber framework is used in Zero MQ to communicate between python and Julia. 
 
