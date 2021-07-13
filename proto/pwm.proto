@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package pwm;
+
+message PWM {
+	double motor1 = 1;
+	double motor2 = 2;
+	double motor3 = 3;
+	double motor4 = 4;
+
+}
