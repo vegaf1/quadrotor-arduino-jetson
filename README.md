@@ -9,7 +9,9 @@
 
 2. The quadrotor will use julia as a controller which provides control inputs to a python program that sends it to the Arduino via serial. Protocol buffers are used to serialize the messages between Julia and Python, and a packed structure was used to send it from the python script to the arduino. This program shows a simple demo of sending different pwm signals to the motors through this frame work. 
 
-3. The Arduino code includes the calibration of the ESC's which is initialized everytime the arduino is plugged in. 
+3. The Arduino code includes the calibration of the ESC's which is initialized everytime the arduino is plugged in.
+
+4. The pwm.proto file contains the message that is passed between Julia and Python. 
 
 # Running the programs
 
