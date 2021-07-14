@@ -12,6 +12,8 @@ socket = Socket(context, PUB)
 connect(socket, "tcp://localhost:5555")
 iob = IOBuffer()
 
+sleep(15)
+
 while true
     for i in 1200:100:1500
     writeproto(iob, PWM(; motor1 = i, motor2 = i+100, motor3 = i+200, motor4 = i+300))
@@ -23,7 +25,7 @@ while true
     #print(data)
     print(Message(iob))
     print("sending")
-    sleep(1)
+    sleep(5)
     end 
 
     
