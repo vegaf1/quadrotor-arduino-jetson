@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/receive.dir/receive.cpp.o -o receive  -Wl,-rpath,/usr/local/lib /usr/local/lib/libzmq.so.5.2.5 -lpthread -lrt 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libprotobuffers.a CMakeFiles/protobuffers.dir/home/fausto/protobuff/c_gen/proto/pwm.pb.cc.o
+/usr/bin/ranlib libprotobuffers.a

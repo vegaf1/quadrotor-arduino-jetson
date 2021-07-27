@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/send.dir/send.cpp.o -o send  -Wl,-rpath,/usr/local/lib /usr/local/lib/libzmq.so.5.2.5 -lpthread -lrt 

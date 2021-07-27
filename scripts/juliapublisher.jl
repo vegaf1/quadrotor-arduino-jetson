@@ -9,13 +9,13 @@ include("/home/fausto/protobuff/juliaout/pwm.jl")
 
 context = Context()
 socket = Socket(context, PUB)
-connect(socket, "tcp://localhost:5555")
+bind(socket, "tcp://*:5555")
 iob = IOBuffer()
 
-sleep(15)
+#sleep(15)
 
 while true
-    for i in 1200:100:1500
+    for i in 1200:50:1500
     writeproto(iob, PWM(; motor1 = i, motor2 = i+100, motor3 = i+200, motor4 = i+300))
     #msg = serialize(PWM)
     ZMQ.send(socket, Message(iob))
@@ -25,7 +25,7 @@ while true
     #print(data)
     print(Message(iob))
     print("sending")
-    sleep(5)
+    sleep(1)
     end 
 
     

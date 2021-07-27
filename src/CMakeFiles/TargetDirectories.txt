@@ -1,0 +1,7 @@
+/home/fausto/protobuff/src/CMakeFiles/rebuild_cache.dir
+/home/fausto/protobuff/src/CMakeFiles/receive.dir
+/home/fausto/protobuff/src/CMakeFiles/send.dir
+/home/fausto/protobuff/src/CMakeFiles/subscriber.dir
+/home/fausto/protobuff/src/CMakeFiles/protobuffers.dir
+/home/fausto/protobuff/src/CMakeFiles/serial.dir
+/home/fausto/protobuff/src/CMakeFiles/edit_cache.dir
